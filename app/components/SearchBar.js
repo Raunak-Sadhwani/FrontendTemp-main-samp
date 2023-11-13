@@ -91,7 +91,7 @@ const SearchBar = () => {
                 <div className='border border-gray-300 rounded-md flex align-middle'>
                     <AiFillHeart className='inline my-4 text-xl text-gray-600 ml-4' />
                     <select className='focus:outline-none mr-4' value={selectedLocation} onChange={handleLocationChange}>
-                        <option className='' value="0">Select City</option>
+                        <option className='text-sm' value="0">Select Location</option>
                         <option className='' value="1">{userLocation}</option>
                     </select>
 

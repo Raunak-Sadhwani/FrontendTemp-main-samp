@@ -5,6 +5,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat&display=swap');
 
-*{
-    font-family: 'Montserrat', sans-serif;
+*, p, a, b, u{
+    font-family: 'Montserrat', sans-serif !important;
 }

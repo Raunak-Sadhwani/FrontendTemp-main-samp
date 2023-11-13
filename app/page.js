@@ -125,6 +125,7 @@ const Page = ({ data }) => {
   };
 
   return (
+    
     <div className='md:px-10 lg:px-10 xl:px-30 px-4'>
 
       <Navbar />
@@ -135,82 +136,82 @@ const Page = ({ data }) => {
         </div>
         <div className="grid grid-cols-3 grid-rows-3 md:grid-cols-6 md:grid-rows-3 lg:grid-cols-6 lg:grid-rows-3 gap-2 md:w-1/2 lg:w-1/2 pt-5 md:px-2 lg:px-2 md:pt-0 lg:pt-0 ">
           {/* {category.map((item, index) => (
-            <div key={index} className="border  border-gray-300 flex flex-col items-center justify-between text-center px-4 py-1">
-              <img src={item.categoryImage} alt={`Image ${index + 1}`} />
-              <p className={` text-xs text-sky-500 overflow-hidden text-center`}>{item.categoryName}</p>
+            <div key={index} className="border pt-2  border-gray-300 flex flex-col items-center justify-center text-center px-4 py-1">
+              <img src={item.categoryImage} alt={Image ${index + 1}} />
+              <p className={` font-bold text-xs text-sky-500 overflow-hidden p-2 text-center`}>{item.categoryName}</p>
             </div>
           ))} */}
-          <div className="border  border-gray-300 rounded-md flex flex-col items-center justify-between text-center px-4 py-1">
-            <img src='./homecat.png' alt="Category Image" />
-            <p className={` text-xs text-sky-500 overflow-hidden text-center`}>Home Decor</p>
+          <div className="border pt-2 px-4  border-gray-300 rounded-md flex flex-col items-center justify-center text-center ">
+            <img className='' src='./homecat.png' alt="Category Image" />
+            <p className={` font-bold text-xs text-sky-500 overflow-hidden p-2 text-center`}>Home   Decor</p>
           </div>
-          <div className="border  border-gray-300 rounded-md flex flex-col items-center justify-between text-center px-4 py-1">
+          <div className="border pt-2  border-gray-300 rounded-md flex flex-col items-center justify-center text-center px-4 py-1">
             <img src='./hospitalcat.png' alt="Category Image" />
-            <p className={` text-xs text-sky-500 overflow-hidden text-center`}>Hospital Medical</p>
+            <p className={` font-bold text-xs text-sky-500 overflow-hidden p-2 text-center`}>Hospital Medical</p>
           </div>
-          <div className="border  border-gray-300 rounded-md flex flex-col items-center justify-between text-center px-4 py-1">
+          <div className="border pt-2  border-gray-300 rounded-md flex flex-col items-center justify-center text-center px-4 py-1">
             <img src='./estateagentcat.png' alt="Category Image" />
-            <p className={` text-xs text-sky-500 overflow-hidden text-center`}>Estate Agent</p>
+            <p className={` font-bold text-xs text-sky-500 overflow-hidden p-2 text-center`}>Estate Agent</p>
           </div>
-          <div className="border  border-gray-300 rounded-md flex flex-col items-center justify-between text-center px-4 py-1">
+          <div className="border pt-2  border-gray-300 rounded-md flex flex-col items-center justify-center text-center px-4 py-1">
             <img src='./cunstructioncat.png' alt="Category Image" />
-            <p className={` text-xs text-sky-500 overflow-hidden text-center`}>Construction Material</p>
+            <p className={` font-bold text-xs text-sky-500 overflow-hidden p-2 text-center`}>Construction Material</p>
           </div>
-          <div className="border  border-gray-300 rounded-md flex flex-col items-center justify-between text-center px-4 py-1">
+          <div className="border pt-2  border-gray-300 rounded-md flex flex-col items-center justify-center text-center px-4 py-1">
             <img src='./electronicscat.png' alt="Category Image" />
-            <p className={` text-xs text-sky-500 overflow-hidden text-center`}>Electronics Electricals</p>
+            <p className={` font-bold text-xs text-sky-500 overflow-hidden p-2 text-center`}>Electronics Electricals</p>
           </div>
-          <div className="border  border-gray-300 rounded-md flex flex-col items-center justify-between text-center px-4 py-1">
+          <div className="border pt-2  border-gray-300 rounded-md flex flex-col items-center justify-center text-center px-4 py-1">
             <img src='./cunsultantcat.png' alt="Category Image" />
-            <p className={` text-xs text-sky-500 overflow-hidden text-center`}>Consultants</p>
+            <p className={` font-bold text-xs text-sky-500 overflow-hidden p-2 text-center`}>Consultants</p>
           </div>
-          <div className="border  border-gray-300 rounded-md flex flex-col items-center justify-between text-center px-4 py-1">
+          <div className="border pt-2  border-gray-300 rounded-md flex flex-col items-center justify-center text-center px-4 py-1">
             <img src='./homecat.png' alt="Category Image" />
-            <p className={` text-xs text-sky-500 overflow-hidden text-center`}>Home Decor</p>
+            <p className={` font-bold text-xs text-sky-500 overflow-hidden p-2 text-center`}>Home Decor</p>
           </div>
-          <div className="border  border-gray-300 rounded-md flex flex-col items-center justify-between text-center px-4 py-1">
+          <div className="border pt-2  border-gray-300 rounded-md flex flex-col items-center justify-center text-center px-4 py-1">
             <img src='./hospitalcat.png' alt="Category Image" />
-            <p className={` text-xs text-sky-500 overflow-hidden text-center`}>Hospital Medical</p>
+            <p className={` font-bold text-xs text-sky-500 overflow-hidden p-2 text-center`}>Hospital Medical</p>
           </div>
-          <div className="border  border-gray-300 rounded-md flex flex-col items-center justify-between text-center px-4 py-1">
+          <div className="border pt-2  border-gray-300 rounded-md flex flex-col items-center justify-center text-center px-4 py-1">
             <img src='./estateagentcat.png' alt="Category Image" />
-            <p className={` text-xs text-sky-500 overflow-hidden text-center`}>Estate Agent</p>
+            <p className={` font-bold text-xs text-sky-500 overflow-hidden p-2 text-center`}>Estate Agent</p>
           </div>
-          <div className="border  border-gray-300 rounded-md flex flex-col items-center justify-between text-center px-4 py-1">
+          <div className="border pt-2  border-gray-300 rounded-md flex flex-col items-center justify-center text-center px-4 py-1">
             <img src='./cunstructioncat.png' alt="Category Image" />
-            <p className={` text-xs text-sky-500 overflow-hidden text-center`}>Construction Material</p>
+            <p className={` font-bold text-xs text-sky-500 overflow-hidden p-2 text-center`}>Construction Material</p>
           </div>
-          <div className="border  border-gray-300 rounded-md flex flex-col items-center justify-between text-center px-4 py-1">
+          <div className="border pt-2  border-gray-300 rounded-md flex flex-col items-center justify-center text-center px-4 py-1">
             <img src='./electronicscat.png' alt="Category Image" />
-            <p className={` text-xs text-sky-500 overflow-hidden text-center`}>Electronics Electricals</p>
+            <p className={` font-bold text-xs text-sky-500 overflow-hidden p-2 text-center`}>Electronics Electricals</p>
           </div>
-          <div className="border  border-gray-300 rounded-md flex flex-col items-center justify-between text-center px-4 py-1">
+          <div className="border pt-2  border-gray-300 rounded-md flex flex-col items-center justify-center text-center px-4 py-1">
             <img src='./cunsultantcat.png' alt="Category Image" />
-            <p className={` text-xs text-sky-500 overflow-hidden text-center`}>Consultants</p>
+            <p className={` font-bold text-xs text-sky-500 overflow-hidden p-2 text-center`}>Consultants</p>
           </div>
-          <div className="border border-gray-300 rounded-md flex flex-col items-center justify-between text-center px-4 py-1 ">
+          <div className="border pt-2 border-gray-300 rounded-md flex flex-col items-center justify-center text-center px-4 py-1 ">
             <img src='./homecat.png' alt="Category Image" />
-            <p className={` text-xs text-sky-500 overflow-hidden text-center`}>Home Decor</p>
+            <p className={` font-bold text-xs text-sky-500 overflow-hidden p-2 text-center`}>Home Decor</p>
           </div>
-          <div className="border border-gray-300 rounded-md flex flex-col items-center justify-between text-center px-4 py-1">
+          <div className="border pt-2 border-gray-300 rounded-md flex flex-col items-center justify-center text-center px-4 py-1">
             <img src='./hospitalcat.png' alt="Category Image" />
-            <p className={` text-xs text-sky-500 overflow-hidden text-center`}>Hospital Medical</p>
+            <p className={` font-bold text-xs text-sky-500 overflow-hidden p-2 text-center`}>Hospital Medical</p>
           </div>
-          <div className="border border-gray-300 rounded-md flex flex-col items-center justify-between text-center px-4 py-1">
+          <div className="border pt-2 border-gray-300 rounded-md flex flex-col items-center justify-center text-center px-4 py-1">
             <img src='./estateagentcat.png' alt="Category Image" />
-            <p className={` text-xs text-sky-500 overflow-hidden text-center`}>Estate Agent</p>
+            <p className={` font-bold text-xs text-sky-500 overflow-hidden p-2 text-center`}>Estate Agent</p>
           </div>
-          <div className="border border-gray-300 rounded-md flex flex-col items-center justify-between text-center px-4 py-1">
+          <div className="border pt-2 border-gray-300 rounded-md flex flex-col items-center justify-center text-center px-4 py-1">
             <img src='./cunstructioncat.png' alt="Category Image" />
-            <p className={` text-xs text-sky-500 overflow-hidden text-center`}>Construction Material</p>
+            <p className={` font-bold text-xs text-sky-500 overflow-hidden p-2 text-center`}>Construction Material</p>
           </div>
-          <div className="border border-gray-300 rounded-md flex flex-col items-center justify-between text-center px-4 py-1">
+          <div className="border pt-2 border-gray-300 rounded-md flex flex-col items-center justify-center text-center px-4 py-1">
             <img src='./electronicscat.png' alt="Category Image" />
-            <p className={` text-xs text-sky-500 overflow-hidden text-center`}>Electronics Electricals</p>
+            <p className={` font-bold text-xs text-sky-500 overflow-hidden p-2 text-center`}>Electronics Electricals</p>
           </div>
-          <div className="border border-gray-300 rounded-md flex flex-col items-center justify-between text-center px-4 py-1">
+          <div className="border pt-2 border-gray-300 rounded-md flex flex-col items-center justify-center text-center px-4 py-1">
             <img src='./cunsultantcat.png' alt="Category Image" />
-            <p className={` text-xs text-sky-500 overflow-hidden text-center`}>Consultants</p>
+            <p className={` font-bold text-xs text-sky-500 overflow-hidden p-2 text-center`}>Consultants</p>
           </div>
         </div>
       </div>
@@ -277,7 +278,7 @@ const Page = ({ data }) => {
                     </div>
                   </div>
                   <div className="more text-xs text-gray-500 flex justify-between py-4">
-                    <Link href={`/profile?data=${JSON.stringify(newDataValue)}`} onClick={handleButtonClick(product._id)} className='text-sky-500 border-b-2 border-sky-300'>More from John Doe<MdKeyboardDoubleArrowRight className='inline text-xl' /></Link>
+                    <Link href={/profile?data=${JSON.stringify(newDataValue)}} onClick={handleButtonClick(product._id)} className='text-sky-500 border-b-2 border-sky-300'>More from John Doe<MdKeyboardDoubleArrowRight className='inline text-xl' /></Link>
                     <p>responds in less than <span className='text-sky-400 font-bold'>5 min</span></p>
                   </div>
                 </div>
